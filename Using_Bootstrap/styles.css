@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card-title, .card-text {
+    color: #fff;
+    max-width: 400px;
+    max-height: 100px;
+    
+}
+
+.card-img-overlay {
+    background-color: rgba(173, 40, 40, 0.5);
+    max-width: 400px;
+    max-height: 100px;
+}
+
+.card img {
+    width: 100%; /* responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container */
+}
+
+/* Set a maximum size for the images */
+.card-img {
+    max-width: 1000px; 
+    max-height: 700px; 
+    margin: 0 auto; /* Center image */
+}
+
+
+.aboutcard img {
+    width: 100%; /*responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container */
+}
+
+/* Set a maximum size for the images */
+.card-img-top {
+    max-width: 400px; 
+    max-height: 300px; 
+    margin: 0 auto; /* Center image */
+}
+
+/* Set a maximum size for the images */
+.card-img-ft {
+    max-width: 700px;
+    max-height: auto; 
+    margin: 0 auto; /* Center  image */
+}
+
+
+/* Responsive styles */
+/*landscape phones */
+@media (min-width: 576px) {
+    .col-sm {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+/*tablets */
+@media (min-width: 768px) {
+    .col-md {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+/*desktops */
+@media (min-width: 992px) {
+    .col-lg {
+        flex: 0 0 auto;
+        width: 33.33%;
+    }
+}
+
+/*large desktops*/
+@media (min-width: 1200px) {
+    .col-xl {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
