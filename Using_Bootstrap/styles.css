@@ -6,6 +6,8 @@ body {
     
 }
 
+/* Header */
+
 .card-title, .card-text {
     color: #080404;
     max-width: 400px;
@@ -35,7 +37,23 @@ body {
     border-bottom-right-radius: 60%;
 }
 
+/* navBar */
 
+.navbar {
+    background-color: #343a40; /* Dark background */
+}
+
+.nav-link {
+    color: #fff; /* White text */
+    font-weight: bold; /* Bold text */
+}
+
+.nav-link:hover {
+    color: #ffc107; /* Yellow text on hover */
+}
+
+
+/* About */
 .aboutcard img {
     width: 90%; /*responsiveness */
     height: auto; /* Maintain aspect ratio */
@@ -48,8 +66,19 @@ body {
     max-width: 440px; 
     max-height: 300px; 
     margin: 100px auto; /* Center image */
-    border-radius: 20%;
+    border-radius: 20%;    
 }
+
+.card-title1, .card-text1 {
+    color: #080404;
+    max-width: 400px;
+    max-height: 100px;
+    
+}
+
+
+
+/* Featured */
 
 /* Set a maximum size for the images */
 .card-img-ft {
@@ -64,6 +93,19 @@ body {
     margin: 20px;
 
 }
+
+.card-title2, .card-text2 {
+    color: #080404;
+    max-width: 400px;
+    max-height: 100px;
+    
+}
+
+
+
+
+
+
 
 
 /* Responsive styles */
