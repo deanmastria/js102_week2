@@ -5,7 +5,7 @@ body {
 }
 
 .card-title, .card-text {
-    color: #fff;
+    color: #080404;
     max-width: 400px;
     max-height: 100px;
     
@@ -28,6 +28,9 @@ body {
     max-width: 1000px; 
     max-height: 700px; 
     margin: 0 auto; /* Center image */
+    border-style: double;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
 }
 
 
@@ -39,9 +42,10 @@ body {
 
 /* Set a maximum size for the images */
 .card-img-top {
-    max-width: 400px; 
+    max-width: 440px; 
     max-height: 300px; 
-    margin: 0 auto; /* Center image */
+    margin: 100px auto; /* Center image */
+    border-radius: 20%;
 }
 
 /* Set a maximum size for the images */
@@ -49,6 +53,10 @@ body {
     max-width: 700px;
     max-height: auto; 
     margin: 0 auto; /* Center  image */
+}
+
+.card {
+    margin-bottom: 20px; /* Add some bottom margin to separate cards */
 }
 
 
