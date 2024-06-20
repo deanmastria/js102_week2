@@ -44,12 +44,19 @@ body {
 }
 
 .nav-link {
-    color: #fff; /* White text */
+    color: #f8fcc8; /* White text */
     font-weight: bold; /* Bold text */
 }
 
+
 .nav-link:hover {
     color: #ffc107; /* Yellow text on hover */
+}
+
+.nav-tabs .nav-link.disabled {
+    color: #ffffff; /* White text color */
+    pointer-events: none; /* Disable pointer events on the disabled link */
+    cursor: default; /* Use default cursor for disabled link */
 }
 
 
