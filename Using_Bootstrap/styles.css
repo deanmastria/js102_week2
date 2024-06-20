@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #3c4044;
+    
 }
 
 .card-title, .card-text {
@@ -35,9 +37,10 @@ body {
 
 
 .aboutcard img {
-    width: 100%; /*responsiveness */
+    width: 90%; /*responsiveness */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Cover the container */
+    margin: 1px;
 }
 
 /* Set a maximum size for the images */
@@ -57,6 +60,9 @@ body {
 
 .card {
     margin-bottom: 20px; /* Add some bottom margin to separate cards */
+    background-color: #3c4044;
+    margin: 20px;
+
 }
 
 
