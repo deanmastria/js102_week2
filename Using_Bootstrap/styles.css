@@ -8,7 +8,7 @@ body {
 .card-img {
     max-width: 1000px; 
     max-height: 700px; 
-    margin: 0 auto; /* Center image */
+    margin: 0 auto; 
     border-style: double;
     border-bottom-left-radius: 60%;
     border-bottom-right-radius: 60%;
@@ -33,10 +33,10 @@ body {
 
 .overlay-below-logo {
     position: relative;
-    top: 10px; /* Adjust as needed */
+    top: 10px; 
     max-width: fit;
     max-height: fit;
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,10 +46,10 @@ body {
 
 .overlay-below-image {
     position: relative;
-    top: 10px; /* Adjust as needed */
+    top: 10px; 
     max-width: fit;
     max-height: fit;
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 10px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,12 +69,14 @@ body {
     border-style: double;
 }
 
+.card-img-top {
+    border-style: double;
+}
 .card-group, .card-img-top, .aboutcard img {
-    max-width: 600px; 
-    max-height: 300px; 
-    margin: 0 auto; /* Center image */
+    max-width: 900px; 
+    max-height: 600px; 
+    margin: 0 auto; 
     margin-top: auto;   
-    padding: 1em;
     display: block;
     border-radius: 20%;
 }
@@ -85,18 +87,18 @@ body {
 }
 
 .card {
-    margin-bottom: 20px; /* Add some bottom margin to separate cards */
-    background-color: #545b62; /* Gunmetal color */
+    margin-bottom: 20px; /* Added bottom margin to separate cards */
+    background-color: #545b62; /* Gunmetal */
     margin: 20px;
 }
 
 .navbar {
-    background-color: #343a40; /* Dark background */
+    background-color: #343a40; 
 }
 
 .nav-link {
-    color: #f8fcc8; /* White text */
-    font-weight: bold; /* Bold text */
+    color: #f8fcc8; 
+    font-weight: bold; 
 }
 
 .nav-link:hover {
