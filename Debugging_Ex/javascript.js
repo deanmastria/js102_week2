@@ -42,7 +42,8 @@ const storeOwners = [                                   //changed properties so 
     for (let i = 0; i < storeOwners.length; i++) {
       let person = storeOwners[i].name;                                       //corrected access to property, added [i] ( This accesses the i-th element in the storeOwners array)
       let location = storeOwners[i].location;
-      console.log(`Yes, ${person} has one in ${location}`);                  //removed 'this' from location, added `` and ${} to person and location
+      let stores = storeOwners[i].stores;
+      console.log(`Yes, ${person} has ${stores} in ${location}`);                  //removed 'this' from location, added `` and ${} to person and location
     }
   
   }
